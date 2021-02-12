@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">Diksiyon Hocam</string>
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="myYoutubeChannel">https://www.youtube.com/channel/UCdrMn5ROf2jIlCVlgm8NlyA</string>
+  <string name="odulluReklam1">ca-app-pub-2516048937640163/6763180755</string>
+  <string name="odulluReklam2">ca-app-pub-2516048937640163/3891112004</string>
+  <string name="tekerlemelerAdmobBanner">ca-app-pub-2516048937640163/1844582912</string>
+  <string name="mainAdmobBanner">ca-app-pub-2516048937640163/1844582912</string>
+  <string name="gecisReklami1">ca-app-pub-2516048937640163/6101895267</string>
+
+  <string name="youtubeApiKey">AIzaSyB1iVrKXhnRAr2aEhKFClLmEuxr0VrS3Cg</string>
+</resources>

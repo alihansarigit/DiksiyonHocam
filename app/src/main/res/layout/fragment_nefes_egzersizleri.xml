@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.yuhdeveloper.diksiyonhocam.Fragment.NefesEgzersizleri">
+
+  <include layout="@layout/custom_toolbar"></include>
+
+    <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <TextView
+        android:id="@+id/txtNefesDescription"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/myDescriptionTextStyle"
+        android:text="Nefes Açıklama"
+     />
+
+      <Button
+        android:id="@+id/nefes_btnGeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:visibility="invisible"
+        style="@style/myNextAndBackButtonStyle"
+
+        android:text="Geri" />
+      <Button
+        android:id="@+id/nefes_btnIleri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        style="@style/myNextAndBackButtonStyle"
+
+        android:text="İleri" />
+    </FrameLayout>
+
+</LinearLayout>

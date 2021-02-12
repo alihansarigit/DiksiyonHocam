@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.yuhdeveloper.diksiyonhocam.Fragment.DiyaframFragment">
+
+  <include layout="@layout/custom_toolbar" />
+  <TextView
+    android:id="@+id/diyafram_txtBaslik"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="5dp"
+    android:layout_gravity="center"
+    android:text="blah blah"
+    android:textSize="20dp" />
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+      android:id="@+id/diyafram_txtDetay"
+      style="@style/myDescriptionTextStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="deneme" />
+
+    <Button
+      android:id="@+id/diyafram_btnBefore"
+      style="@style/myNextAndBackButtonStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="left|bottom"
+      android:text="Geri"
+      android:visibility="invisible" />
+
+    <Button
+      android:id="@+id/diyafram_btnAfter"
+      style="@style/myNextAndBackButtonStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right|bottom"
+      android:text="İleri" />
+  </FrameLayout>
+
+</LinearLayout>

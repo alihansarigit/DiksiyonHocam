@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.yuhdeveloper.diksiyonhocam.Fragment.MenuFragment"
+  tools:layout_editor_absoluteY="25dp">
+
+  <include
+    android:id="@+id/include"
+    layout="@layout/custom_toolbar" />
+  <!--<FrameLayout-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:layout_marginTop="10dp"-->
+  <!--android:layout_gravity="center">-->
+  <!--<ImageButton-->
+  <!--android:id="@+id/menu_tekerlemeler"-->
+  <!--android:layout_width="75dp"-->
+  <!--android:layout_height="75dp"-->
+  <!--android:layout_gravity="center"-->
+  <!--android:background="@mipmap/ic_menu_tekerlemeler"-->
+  <!--android:text="Tekerlemeler" />-->
+  <!--<TextView-->
+  <!--android:textStyle="italic"-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:layout_marginRight="10dp"-->
+  <!--android:layout_gravity="center_vertical|right"-->
+  <!--android:text="Tekerlemeler" />-->
+  <!--</FrameLayout>-->
+
+
+  <!--<FrameLayout-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="wrap_content">-->
+
+
+  <!--<ImageButton-->
+  <!--android:id="@+id/menu_ses"-->
+  <!--android:layout_width="75dp"-->
+  <!--android:layout_height="75dp"-->
+  <!--android:layout_gravity="center_horizontal"-->
+  <!--android:background="@mipmap/ic_menu_sesegzersizleri"-->
+  <!--android:text="Ses Egzersizleri" />-->
+  <!--<TextView-->
+  <!--android:textStyle="italic"-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:layout_marginLeft="10dp"-->
+  <!--android:layout_gravity="center_vertical|left"-->
+  <!--android:text="Ses Egzersizleri" />-->
+  <!--</FrameLayout>-->
+  <!--<FrameLayout-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="wrap_content">-->
+  <!--<ImageButton-->
+  <!--android:id="@+id/menu_nefes"-->
+  <!--android:layout_width="75dp"-->
+  <!--android:layout_height="75dp"-->
+  <!--android:layout_gravity="center_horizontal"-->
+
+  <!--android:background="@mipmap/ic_menu_nefesegzersizleri"-->
+  <!--android:text="Nefes Egzersizleri"-->
+  <!--tools:layout_editor_absoluteY="146dp" />-->
+  <!--<TextView-->
+  <!--android:textStyle="italic"-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:layout_marginRight="10dp"-->
+  <!--android:layout_gravity="center_vertical|right"-->
+  <!--android:text="Nefes Egzersizleri" />-->
+  <!--</FrameLayout>-->
+  <!--<FrameLayout-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="wrap_content">-->
+
+  <!--<ImageButton-->
+  <!--android:id="@+id/menu_diyaframOnemi"-->
+  <!--android:layout_width="75dp"-->
+  <!--android:layout_height="75dp"-->
+  <!--android:layout_gravity="center_horizontal"-->
+  <!--android:background="@mipmap/ic_menu_diyaframonemi"-->
+  <!--android:text="Diyaframın Önemi"-->
+
+  <!--tools:layout_editor_absoluteX="172dp"-->
+  <!--tools:layout_editor_absoluteY="186dp" />-->
+  <!--<TextView-->
+  <!--android:textStyle="italic"-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:layout_marginLeft="10dp"-->
+  <!--android:layout_gravity="center_vertical|left"-->
+  <!--android:text="Diyaframın Önemi" />-->
+  <!--</FrameLayout>-->
+  <!--<FrameLayout-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="wrap_content">-->
+
+  <!--<ImageButton-->
+  <!--android:id="@+id/menu_diksiyononemi"-->
+  <!--android:layout_width="75dp"-->
+  <!--android:layout_height="75dp"-->
+  <!--android:layout_gravity="center_horizontal"-->
+  <!--android:background="@mipmap/ic_menu_diksiyononemi"-->
+  <!--android:text="Diksiyon'un Önemi"-->
+
+  <!--tools:layout_editor_absoluteX="172dp"-->
+  <!--tools:layout_editor_absoluteY="229dp" />-->
+  <!--<TextView-->
+  <!--android:textStyle="italic"-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:layout_marginRight="10dp"-->
+  <!--android:layout_gravity="center_vertical|right"-->
+  <!--android:text="Diksiyon'un Önemi" />-->
+  <!--</FrameLayout>-->
+  <ImageButton
+    android:id="@+id/menu_tekerlemeler"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_gravity="center"
+    android:background="@mipmap/ic_menu_tekerlemeler"
+    android:text="Tekerlemeler" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/myMenuTextViewStyle"
+    android:text="Tekerlemeler" />
+
+
+  <ImageButton
+    android:id="@+id/menu_ses"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@mipmap/ic_menu_sesegzersizleri"
+    android:text="Ses Egzersizleri" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/myMenuTextViewStyle"
+
+    android:text="Ses Egzersizleri" />
+  <ImageButton
+    android:id="@+id/menu_nefes"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@mipmap/ic_menu_nefesegzersizleri"
+    android:text="Nefes Egzersizleri"
+    tools:layout_editor_absoluteY="146dp" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/myMenuTextViewStyle"
+    android:text="Nefes Egzersizleri" />
+
+  <ImageButton
+    android:id="@+id/menu_diyaframOnemi"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@mipmap/ic_menu_diyaframonemi"
+    android:text="Diyaframın Önemi"
+
+    tools:layout_editor_absoluteX="172dp"
+    tools:layout_editor_absoluteY="186dp" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/myMenuTextViewStyle"
+
+    android:text="Diyaframın Önemi" />
+
+  <ImageButton
+    android:id="@+id/menu_diksiyononemi"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@mipmap/ic_menu_diksiyononemi"
+    android:text="Diksiyon'un Önemi"
+
+    tools:layout_editor_absoluteX="172dp"
+    tools:layout_editor_absoluteY="229dp" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/myMenuTextViewStyle"
+    android:text="Diksiyon'un Önemi" />
+</LinearLayout>

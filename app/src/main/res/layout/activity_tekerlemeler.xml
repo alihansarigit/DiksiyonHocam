@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.yuhdeveloper.diksiyonhocam.Activity.TekerlemelerActivity">
+
+  <include layout="@layout/custom_toolbar" />
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+      android:id="@+id/tekerlemler_btnAfterWord"
+      style="@style/myNextAndBackButtonStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right"
+      android:text="C" />
+    <Button
+      android:id="@+id/tekerlemler_btnBeforeWord"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="A"
+      style="@style/myNextAndBackButtonStyle"
+      android:visibility="invisible" />
+    <TextView
+      android:id="@+id/tekerlemeler_txt_wordStart"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="B"
+
+      android:textSize="30dp" />
+    <ScrollView
+      android:layout_width="wrap_content"
+      android:layout_height="200dp"
+      android:layout_marginTop="100dp"
+      android:layout_marginLeft="10dp"
+
+      android:layout_marginRight="10dp">
+      <TextView
+        android:id="@+id/tekerlemeler_txt_tekerlemeler"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="al şu takatukaları"
+        android:textSize="16dp" />
+    </ScrollView>
+
+
+    <Button
+      android:id="@+id/tekerlemeler_btn_next"
+      style="@style/myNextAndBackButtonStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|right"
+      android:text="İleri" />
+    <Button
+      android:id="@+id/tekerlemeler_btn_back"
+      style="@style/myNextAndBackButtonStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom|left"
+      android:text="Geri"
+      android:visibility="invisible" />
+    <CheckBox
+      android:id="@+id/tekerlemeler_chckbox"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      style="@style/myNextAndBackButtonStyle"
+      android:background="@android:color/transparent"
+      android:layout_gravity="bottom|center_horizontal"
+    />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/tekerlemelerAdmobBanner" />
+  </FrameLayout>
+
+</LinearLayout>

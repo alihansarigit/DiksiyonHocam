@@ -1,0 +1,53 @@
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">#FFA000</item>
+  </style>
+
+  <style name="myNextAndBackButtonStyle">
+    <item name="android:background">@drawable/custom_btn_design</item>
+    <item name="android:textColor">@color/AcikMor</item>
+    <item name="android:layout_marginLeft">10dp</item>
+    <item name="android:layout_marginRight">10dp</item>
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:layout_marginBottom">60dp</item>
+    <item name="android:textSize">16dp</item>
+  </style>
+
+
+  <style name="myToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+    <item name="titleTextColor">@color/AcikMor</item>
+    <item name="android:background">#7E57C2</item>
+  </style>
+
+
+  <style name="myDescriptionTextStyle">
+    <item name="android:textSize">13dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginLeft">10dp</item>
+    <item name="android:layout_marginRight">10dp</item>
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:layout_gravity">left</item>
+  </style>
+
+  <style name="myTitleTextStyle">
+    <item name="android:textSize">20dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_marginBottom">5dp</item>
+    <item name="android:layout_marginTop">20dp</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:text">blah</item>
+  </style>
+
+  <style name="myButtonMenuStyle">
+    <item name="android:layout_marginTop">5dp</item>
+  </style>
+
+  <style name="myMenuTextViewStyle">
+    <item name="android:layout_gravity">center</item>
+    <item name="android:textStyle">italic</item>
+  </style>
+
+</resources>
